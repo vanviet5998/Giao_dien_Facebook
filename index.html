@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Trang Facebook</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	 <div class="container"> 
+		<div class="header">
+			<div class="left">
+				 <img src="images/logo_face.png" alt=""> 
+			</div><!-- end left -->
+			<div class="right">
+				<div class="right1">
+					<p>Email hoặc điện thoại</p>
+					<p>
+						<label for="emailhoacdienthoai"></label>
+						<input type="text"  class="textbox"  name="emailhoacdienthoai">
+					</p>
+				</div>
+				<div class="right2">
+					<p>Mật khẩu</p>
+					<p>
+						<label for="matkhau"></label>
+						<input type="text"  class="textbox" name="matkhau">
+					</p>
+					<p><a href="#">Quên tài khoản?</a></p>
+				</div>
+				<div class="right3">
+					<p><input type="button" value="Đăng nhập" id="dangnhap"></p>
+				</div>
+				
+			</div><!-- end right -->
+		</div> <!-- end header -->
+		<div class="content">
+			<div class="trai">
+				<!-- <p id="dang">Đăng nhập gần đây</p> -->
+				<h1>Đăng nhập gần đây</h1>
+				<p id="nhap">Nhấp vào ảnh của bạn hoặc thêm tài khoản.</p>
+				<div class="anh">
+					<a href=""><img src="images/a1.png" alt=""></a>
+					<a href=""><img src="images/a3.png" alt=""></a>
+				</div>
+					
+			</div> <!-- end trai -->
+			<div class="phai">
+				<h1>Tạo tài khoản mới</h1>
+				<p id="nhanh">Nhanh chóng và dễ dàng.</p>
+				<div class="form_dk">
+					<p id="hoten"><input type="text" placeholder="Họ" class="ho"><input type="text" placeholder="Tên" class="ten"></p>
+					<p><input type="text" placeholder="Số di động hoặc email" class="sdt_email"></p>
+					<p><input type="text" placeholder="Mật khẩu mới" class="matkhau"></p>
+					<p >
+						<span class="chu">Ngày sinh</span>
+						<br>
+					<select name="brithday"  id="brithday">
+						<option value="ngay"  selected="selected">Ngày</option>
+						<option value="1">1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+						<option value="6" >6</option>
+						<option value="7" >7</option>
+						<option value="8" >8</option>
+						<option value="9" >9</option>
+						<option value="10" >10</option>
+						<option value="11" >11</option>
+						<option value="12" >12</option>
+						<option value="13" >13</option>
+						<option value="14" >14</option>
+						<option value="15" >15</option>
+						<option value="16" >16</option>
+						<option value="17" >17</option>
+						<option value="18" >18</option>
+						<option value="19" >19</option>
+						<option value="20" >20</option>
+						<option value="21" >21</option>
+						<option value="22" >22</option>
+						<option value="23" >23</option>
+						<option value="24" >24</option>
+						<option value="25" >25</option>
+						<option value="26" >26</option>
+						<option value="27" >27</option>
+						<option value="28" >28</option>
+						<option value="29" >29</option>
+						<option value="30" >30</option>
+						<option value="31" >31</option>
+					</select>
+					<select name="thang" id="thang">
+						<option value="0"  selected="selected">Tháng</option>
+						<option value="thang1">Tháng 1</option>
+						<option value="thang2">Tháng 2</option>
+						<option value="thang3">Tháng 3</option>
+						<option value="thang4">Tháng 4</option>
+						<option value="thang5">Tháng 5</option>
+						<option value="thang6">Tháng 6</option>
+						<option value="thang7">Tháng 7</option>
+						<option value="thang8">Tháng 8</option>
+						<option value="thang9">Tháng 9</option>
+						<option value="thang10">Tháng 10</option>
+						<option value="thang11">Tháng 11</option>
+						<option value="thang12">Tháng 12</option>
+					</select>	
+					<select name="nam" id="nam">
+						<option value="0"  selected="selected">Năm</option>
+						<option value="2005">2005</option>
+						<option value="2004">2004</option>
+						<option value="2003">2003</option>
+						<option value="2002">2002</option>
+						<option value="2001">2001</option>
+						<option value="2000">2000</option>
+						<option value="1999">1999</option>
+						<option value="1998">1998</option>
+						<option value="1997">1997</option>
+						<option value="1996">1996</option>
+						<option value="1995">1995</option>
+						<option value="1994">1994</option>
+						<option value="1993">1993</option>
+						<option value="1992">1992</option>
+						<option value="1991">1991</option>
+						<option value="1990">1990</option>
+						<option value="1989">1989</option>
+						<option value="1988">1988</option>
+					</select>	
+				</p>
+				<p id="gioitinh" >
+					<span  class="chu">Giới tính</span>
+					<br>
+					<input type="radio" name="gender" class="gt">Nữ
+					<input type="radio" name="gender" class="gt">Nam
+					<input type="radio" name="gender" class="gt">Tùy chỉnh
+				</p>
+				<p id="dieukhoan">
+					Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="">Điều khoản</a>,<a href="">Chính sách dữ liệu</a> và<a href="">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+				</p>
+				<p>
+					<input type="button" value="Đăng ký" id="dangky">
+				</p>
+				</div>
+				<div class="vien">
+				
+				</div>
+				<div class="taotrang">
+					<p><a href="#">Tạo Trang</a> dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.</p>
+				</div>
+			</div><!-- end phai -->
+		</div><!-- end content -->
+		<div class="footer">
+			
+				
+				<div class="tieng">
+					
+					<ul>
+						<li id="tv">Tiếng Việt</li>
+						<li><a href="#">English (UK)</a></li>
+						<li><a href="#">中文(台灣)</a></li>
+						<li><a href="#">한국어</a></li>
+						<li><a href="#">日本語</a></li>
+						<li><a href="#">Français (France)</a></li>
+						<li><a href="#">ภาษาไทย</a></li>
+						<li><a href="#">Español</a></li>
+						<li><a href="#">Português (Brasil)</a></li>
+						<li><a href="#">Deutsch</a></li>
+						<li><a href="#">Italino</a></li>
+					</ul>
+					
+				</div> <!-- end tieng -->
+				<div class="vienfooter">
+					
+				</div>
+				<div class="menu1 tieng">
+					<ul>
+						<li><a href="#">Đăng ký</a></li>
+						<li><a href="#">Đăng nhập</a></li>
+						<li><a href="#">Messenger</a></li>
+						<li><a href="#">Facebook Lite</a></li>
+						<li><a href="#">Danh bạ</a></li>
+						<li><a href="#">Trang</a></li>
+						<li><a href="#">Hạng mục Trang</a></li>
+						<li><a href="#">Địa điểm</a></li>
+						<li><a href="#">Trò chơi</a></li>
+						<li><a href="#">Vị trí</a></li>
+						<li><a href="#">Marketplace</a></li>
+						<li><a href="#">Nhóm</a></li>
+						<li><a href="#">Instagram</a></li>
+					</ul>
+				</div> <!-- end menu -->
+				
+				<div class="menu2 tieng">
+						<ul>
+						<li><a href="#">Địa phương</a></li>
+						<li><a href="#">Trang gây quỹ</a></li>
+						<li><a href="#">Dịch vụ</a></li>
+						<li><a href="#">Giới thiệu</a></li>
+						<li><a href="#">Tạo quảng cáo</a></li>
+						<li><a href="#">Tạo Trang</a></li>
+						<li><a href="#">Nhà phát triển</a></li>
+						<li><a href="#">Tuyển dụng</a></li>
+						<li><a href="#">Quyền riêng tư</a></li>
+						<li><a href="#">Cookie</a></li>
+						<li><a href="#">Lựa chọn quảng cáo</a></li>
+					
+					</ul>
+				</div> <!-- end menu2 -->
+				<div class="menu3 tieng">
+					<ul>
+						<li><a href="#">Điều khoản</a></li>
+						<li><a href="#">Trợ giúp</a></li>
+					</ul>
+					
+				</div><!-- end menu3 -->
+				<div class="banquyen">
+					<p>Facebook &#169 2019</p>
+					
+				</div> 
+			</div> <!-- end footer -->
+		
+	</div><!--  end container -->
+</body>
+</html>
